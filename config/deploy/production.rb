@@ -67,5 +67,4 @@ set :ssh_options, {
    keys: %w(liyana-key-pair-ningxia.pem),
    forward_agent: false,
    auth_methods: %w(publickey password)
- }
- set :assets_roles, [:web, :app]  
+ }  
