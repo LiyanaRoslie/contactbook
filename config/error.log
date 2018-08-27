@@ -1,0 +1,100 @@
+[ N 2018-08-27 06:25:01.6937 32235/T4 age/Sha/ApiServerUtils.h:733 ]: All log file(s) reopened.
+[ N 2018-08-27 06:25:01.6950 32238/Tb age/Sha/ApiServerUtils.h:792 ]: All log file(s) reinherited.
+[ N 2018-08-27 06:25:06.0324 32238/T5 age/Cor/SecurityUpdateChecker.h:517 ]: Security update check: no update found (next check in 24 hours)
+[ N 2018-08-27 07:22:55.1716 32238/T8 age/Cor/CoreMain.cpp:614 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2018-08-27 07:22:55.1716 32238/T1 age/Cor/CoreMain.cpp:1112 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2018-08-27 07:22:55.1717 32238/Ta Ser/Server.h:903 ]: [ApiServer] Freed 0 spare client objects
+[ N 2018-08-27 07:22:55.1717 32238/Ta Ser/Server.h:559 ]: [ApiServer] Shutdown finished
+[ N 2018-08-27 07:22:55.1717 32238/T8 Ser/Server.h:903 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2018-08-27 07:22:55.1717 32238/T8 Ser/Server.h:559 ]: [ServerThr.1] Shutdown finished
+[ N 2018-08-27 07:22:55.1927 32238/T1 age/Cor/CoreMain.cpp:1185 ]: Passenger core shutdown finished
+2018/08/27 07:22:56 [info] 8076#8076: Using 32768KiB of shared memory for nchan in /etc/nginx/nginx.conf:71
+[ N 2018-08-27 07:22:56.2399 8084/T1 age/Wat/WatchdogMain.cpp:1297 ]: Starting Passenger watchdog...
+[ N 2018-08-27 07:22:56.2644 8087/T1 age/Cor/CoreMain.cpp:1200 ]: Starting Passenger core...
+[ N 2018-08-27 07:22:56.2645 8087/T1 age/Cor/CoreMain.cpp:250 ]: Passenger core running in multi-application mode.
+[ N 2018-08-27 07:22:56.2706 8087/T1 age/Cor/CoreMain.cpp:935 ]: Passenger core online, PID 8087
+[ N 2018-08-27 07:23:01.2622 8087/T5 age/Cor/SecurityUpdateChecker.h:517 ]: Security update check: no update found (next check in 24 hours)
+
+[ N 2018-08-27 09:04:18.2112 8087/T8 age/Cor/CoreMain.cpp:614 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2018-08-27 09:04:18.2112 8087/T1 age/Cor/CoreMain.cpp:1112 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2018-08-27 09:04:18.2113 8087/Ta Ser/Server.h:903 ]: [ApiServer] Freed 0 spare client objects
+[ N 2018-08-27 09:04:18.2113 8087/Ta Ser/Server.h:559 ]: [ApiServer] Shutdown finished
+[ N 2018-08-27 09:04:18.2113 8087/T8 Ser/Server.h:903 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2018-08-27 09:04:18.2113 8087/T8 Ser/Server.h:559 ]: [ServerThr.1] Shutdown finished
+[ N 2018-08-27 09:04:18.2363 8087/T1 age/Cor/CoreMain.cpp:1185 ]: Passenger core shutdown finished
+2018/08/27 09:04:19 [info] 14253#14253: Using 32768KiB of shared memory for nchan in /etc/nginx/nginx.conf:71
+[ N 2018-08-27 09:04:19.3120 14261/T1 age/Wat/WatchdogMain.cpp:1297 ]: Starting Passenger watchdog...
+[ N 2018-08-27 09:04:19.3363 14264/T1 age/Cor/CoreMain.cpp:1200 ]: Starting Passenger core...
+[ N 2018-08-27 09:04:19.3364 14264/T1 age/Cor/CoreMain.cpp:250 ]: Passenger core running in multi-application mode.
+[ N 2018-08-27 09:04:19.3423 14264/T1 age/Cor/CoreMain.cpp:935 ]: Passenger core online, PID 14264
+[ N 2018-08-27 09:04:24.1776 14264/T6 age/Cor/SecurityUpdateChecker.h:517 ]: Security update check: no update found (next check in 24 hours)
+
+[ N 2018-08-27 09:21:03.5740 14264/T8 age/Cor/CoreMain.cpp:614 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2018-08-27 09:21:03.5740 14264/T1 age/Cor/CoreMain.cpp:1112 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2018-08-27 09:21:03.5741 14264/Ta Ser/Server.h:903 ]: [ApiServer] Freed 0 spare client objects
+[ N 2018-08-27 09:21:03.5741 14264/Ta Ser/Server.h:559 ]: [ApiServer] Shutdown finished
+[ N 2018-08-27 09:21:03.5741 14264/T8 Ser/Server.h:903 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2018-08-27 09:21:03.5741 14264/T8 Ser/Server.h:559 ]: [ServerThr.1] Shutdown finished
+[ N 2018-08-27 09:21:03.5952 14264/T1 age/Cor/CoreMain.cpp:1185 ]: Passenger core shutdown finished
+2018/08/27 09:21:04 [info] 16275#16275: Using 32768KiB of shared memory for nchan in /etc/nginx/nginx.conf:71
+[ N 2018-08-27 09:21:04.6320 16283/T1 age/Wat/WatchdogMain.cpp:1297 ]: Starting Passenger watchdog...
+[ N 2018-08-27 09:21:04.6575 16286/T1 age/Cor/CoreMain.cpp:1200 ]: Starting Passenger core...
+[ N 2018-08-27 09:21:04.6576 16286/T1 age/Cor/CoreMain.cpp:250 ]: Passenger core running in multi-application mode.
+[ N 2018-08-27 09:21:04.6638 16286/T1 age/Cor/CoreMain.cpp:935 ]: Passenger core online, PID 16286
+[ N 2018-08-27 09:21:09.5763 16286/T5 age/Cor/SecurityUpdateChecker.h:517 ]: Security update check: no update found (next check in 24 hours)
+
+[ N 2018-08-27 09:22:03.7580 16286/T8 age/Cor/CoreMain.cpp:614 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2018-08-27 09:22:03.7580 16286/T1 age/Cor/CoreMain.cpp:1112 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2018-08-27 09:22:03.7580 16286/Ta Ser/Server.h:903 ]: [ApiServer] Freed 0 spare client objects
+[ N 2018-08-27 09:22:03.7580 16286/Ta Ser/Server.h:559 ]: [ApiServer] Shutdown finished
+[ N 2018-08-27 09:22:03.7581 16286/T8 Ser/Server.h:903 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2018-08-27 09:22:03.7581 16286/T8 Ser/Server.h:559 ]: [ServerThr.1] Shutdown finished
+[ N 2018-08-27 09:22:03.7792 16286/T1 age/Cor/CoreMain.cpp:1185 ]: Passenger core shutdown finished
+2018/08/27 09:22:04 [info] 16373#16373: Using 32768KiB of shared memory for nchan in /etc/nginx/nginx.conf:71
+[ N 2018-08-27 09:22:04.8140 16382/T1 age/Wat/WatchdogMain.cpp:1297 ]: Starting Passenger watchdog...
+[ N 2018-08-27 09:22:04.8384 16385/T1 age/Cor/CoreMain.cpp:1200 ]: Starting Passenger core...
+[ N 2018-08-27 09:22:04.8385 16385/T1 age/Cor/CoreMain.cpp:250 ]: Passenger core running in multi-application mode.
+[ N 2018-08-27 09:22:04.8445 16385/T1 age/Cor/CoreMain.cpp:935 ]: Passenger core online, PID 16385
+[ N 2018-08-27 09:22:08.8327 16385/T5 age/Cor/SecurityUpdateChecker.h:517 ]: Security update check: no update found (next check in 24 hours)
+
+[ N 2018-08-27 09:22:09.8980 16385/T8 age/Cor/CoreMain.cpp:614 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2018-08-27 09:22:09.8980 16385/T1 age/Cor/CoreMain.cpp:1112 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2018-08-27 09:22:09.8980 16385/Ta Ser/Server.h:903 ]: [ApiServer] Freed 0 spare client objects
+[ N 2018-08-27 09:22:09.8980 16385/Ta Ser/Server.h:559 ]: [ApiServer] Shutdown finished
+[ N 2018-08-27 09:22:09.8981 16385/T8 Ser/Server.h:903 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2018-08-27 09:22:09.8981 16385/T8 Ser/Server.h:559 ]: [ServerThr.1] Shutdown finished
+[ N 2018-08-27 09:22:09.9191 16385/T1 age/Cor/CoreMain.cpp:1185 ]: Passenger core shutdown finished
+2018/08/27 09:23:26 [info] 18226#18226: Using 32768KiB of shared memory for nchan in /etc/nginx/nginx.conf:71
+[ N 2018-08-27 09:23:26.3899 18232/T1 age/Wat/WatchdogMain.cpp:1297 ]: Starting Passenger watchdog...
+[ N 2018-08-27 09:23:26.4148 18235/T1 age/Cor/CoreMain.cpp:1200 ]: Starting Passenger core...
+[ N 2018-08-27 09:23:26.4149 18235/T1 age/Cor/CoreMain.cpp:250 ]: Passenger core running in multi-application mode.
+[ N 2018-08-27 09:23:26.4211 18235/T1 age/Cor/CoreMain.cpp:935 ]: Passenger core online, PID 18235
+[ N 2018-08-27 09:23:31.0774 18235/Ta age/Cor/SecurityUpdateChecker.h:517 ]: Security update check: no update found (next check in 24 hours)
+
+[ N 2018-08-27 09:37:03.2746 18235/T5 age/Cor/CoreMain.cpp:614 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2018-08-27 09:37:03.2746 18235/T1 age/Cor/CoreMain.cpp:1112 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2018-08-27 09:37:03.2746 18235/T7 Ser/Server.h:903 ]: [ApiServer] Freed 0 spare client objects
+[ N 2018-08-27 09:37:03.2747 18235/T7 Ser/Server.h:559 ]: [ApiServer] Shutdown finished
+[ N 2018-08-27 09:37:03.2747 18235/T5 Ser/Server.h:903 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2018-08-27 09:37:03.2747 18235/T5 Ser/Server.h:559 ]: [ServerThr.1] Shutdown finished
+[ N 2018-08-27 09:37:03.2958 18235/T1 age/Cor/CoreMain.cpp:1185 ]: Passenger core shutdown finished
+2018/08/27 09:37:04 [info] 18367#18367: Using 32768KiB of shared memory for nchan in /etc/nginx/nginx.conf:71
+[ N 2018-08-27 09:37:04.3416 18375/T1 age/Wat/WatchdogMain.cpp:1297 ]: Starting Passenger watchdog...
+[ N 2018-08-27 09:37:04.3658 18378/T1 age/Cor/CoreMain.cpp:1200 ]: Starting Passenger core...
+[ N 2018-08-27 09:37:04.3660 18378/T1 age/Cor/CoreMain.cpp:250 ]: Passenger core running in multi-application mode.
+[ N 2018-08-27 09:37:04.3718 18378/T1 age/Cor/CoreMain.cpp:935 ]: Passenger core online, PID 18378
+[ N 2018-08-27 09:37:08.0677 18378/T5 age/Cor/SecurityUpdateChecker.h:517 ]: Security update check: no update found (next check in 24 hours)
+
+[ N 2018-08-27 10:20:24.7890 18378/T8 age/Cor/CoreMain.cpp:614 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2018-08-27 10:20:24.7890 18378/T1 age/Cor/CoreMain.cpp:1112 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2018-08-27 10:20:24.7891 18378/Ta Ser/Server.h:903 ]: [ApiServer] Freed 0 spare client objects
+[ N 2018-08-27 10:20:24.7891 18378/Ta Ser/Server.h:559 ]: [ApiServer] Shutdown finished
+[ N 2018-08-27 10:20:24.7891 18378/T8 Ser/Server.h:903 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2018-08-27 10:20:24.7891 18378/T8 Ser/Server.h:559 ]: [ServerThr.1] Shutdown finished
+[ N 2018-08-27 10:20:24.8104 18378/T1 age/Cor/CoreMain.cpp:1185 ]: Passenger core shutdown finished
+2018/08/27 10:20:25 [info] 18743#18743: Using 32768KiB of shared memory for nchan in /etc/nginx/nginx.conf:71
+[ N 2018-08-27 10:20:25.8417 18751/T1 age/Wat/WatchdogMain.cpp:1297 ]: Starting Passenger watchdog...
+[ N 2018-08-27 10:20:25.8674 18754/T1 age/Cor/CoreMain.cpp:1200 ]: Starting Passenger core...
+[ N 2018-08-27 10:20:25.8675 18754/T1 age/Cor/CoreMain.cpp:250 ]: Passenger core running in multi-application mode.
+[ N 2018-08-27 10:20:25.8739 18754/T1 age/Cor/CoreMain.cpp:935 ]: Passenger core online, PID 18754
+[ N 2018-08-27 10:20:29.7935 18754/T8 age/Cor/SecurityUpdateChecker.h:517 ]: Security update check: no update found (next check in 24 hours)
