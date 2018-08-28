@@ -23,5 +23,5 @@ production:
   database: contactbook_production
   username: postgres
   password: <%= Rails.application.credentials.dig(:db_password) %>
-  host: nyk-zhenhua-central-nightly.cszi5fkywgdc.rds.cn-northwest-1.amazonaws.com.cn
+  host: <%= Rails.application.credentials.dig(:db_host) %>
   port: 5432
