@@ -17,3 +17,11 @@ test:
   database: contactbook_test
   username: postgres
   password: postgres
+
+production:
+  <<: *default
+  database: contactbook_production
+  username: postgres
+  password: postgres
+  host: nyk-zhenhua-central-nightly.cszi5fkywgdc.rds.cn-northwest-1.amazonaws.com.cn
+  port: 5432

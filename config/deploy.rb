@@ -3,7 +3,7 @@ lock "~> 3.11.0"
 
 set :application, "contactbook"
 set :repo_url, "git@github.com:liyanarosliescs/contactbook.git"
-append :linked_files, "config/master.key", "config/database.yml"
+append :linked_files, "config/master.key"
 
 set :linked_dirs, fetch(:linked_dirs, []).push('log', 'tmp/pids', 'tmp/cache', 'tmp/sockets', 'vendor/bundle', 'public/system', 'public/uploads')
 set :rvm_ruby_version, '2.5.1'
