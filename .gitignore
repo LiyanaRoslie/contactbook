@@ -32,3 +32,6 @@
 
 # Ignore key file
 /liyana-key-pair-ningxia.pem
+
+# Ignore application configuration
+/config/application.yml

@@ -20,8 +20,8 @@ test:
 
 production:
   <<: *default
-  database: contactbook_production
-  username: postgres
-  password: postgres
-  host: nyk-zhenhua-central-nightly.cszi5fkywgdc.rds.cn-northwest-1.amazonaws.com.cn
-  port: 5432
+  database: ENV["DB_NAME"]
+  username: ENV["DB_USERNAME"]
+  password: ENV["DB_PASSWORD"]
+  host: ENV["DB_HOST"]
+  port: ENV["PORT_NO"]
