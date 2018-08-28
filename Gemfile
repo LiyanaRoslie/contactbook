@@ -55,6 +55,7 @@ group :development do
   gem 'capistrano-rails'
   gem 'capistrano-rvm'
   gem 'capistrano3-puma'
+  gem 'capistrano-figaro-yml', '~> 1.0.2'
 end
 
 group :test do
