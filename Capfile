@@ -21,6 +21,10 @@ require "capistrano/rails/assets"
 require "capistrano/rails/migrations"
 require "capistrano/passenger"
 
+require 'capistrano/puma'
+install_plugin Capistrano::Puma  # Default puma tasks
+install_plugin Capistrano::Puma::Nginx  # if you want to upload a nginx site template
+
 # Include tasks from other gems included in your Gemfile
 #
 # For documentation on these, see for example:

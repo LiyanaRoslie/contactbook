@@ -9,6 +9,16 @@ set :linked_dirs, fetch(:linked_dirs, []).push('log', 'tmp/pids', 'tmp/cache', '
 set :rvm_ruby_version, '2.5.1'
 set :passenger_restart_with_touch, true
 
+set :puma_init_active_record, true
+set :pty,             true
+set :use_sudo,        false
+set :stage,           :production
+set :deploy_via,      :remote_cache
+#set :puma_bind,       "unix://#{shared_path}/tmp/sockets/#{fetch(:application)}-puma.sock"
+set :puma_bind,       "tcp://0.0.0.0:5000"
+set :puma_threads, [4, 8]
+set :puma_workers, 4
+
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
